@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-18T13:29:16.257Z</updated>
+  <updated>2019-11-19T16:11:56.519Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>金矿问题</title>
+    <link href="http://yoursite.com/2019/11/19/%E9%87%91%E7%9F%BF%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/11/19/%E9%87%91%E7%9F%BF%E9%97%AE%E9%A2%98/</id>
+    <published>2019-11-19T15:33:51.000Z</published>
+    <updated>2019-11-19T16:11:56.519Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h3><ul><li><p>把复杂的问题简化成规模较小的子问题，再从简单的子问题自底向上一步一步递推，得到复杂问题的最优解</p></li><li><p>最优子结构</p></li><li><p>状态转移方程式</p><ul><li><p>金矿数量为n，工人数量为w，含金量为数组g[]，开采人数为数组p[]</p><ul><li><p>F（n,w）= 0 （n=0或w=0）</p></li><li><p>F (n,w) = F（n-1,w）(n大于等于1，w&lt;p[n-1])</p></li><li><p>F (n,w) = max(F(n-1,w),F(n-1,w-p[n-1])+g[n-1])</p><p>(n大于等于1,w大于等于p[n-1])</p></li></ul></li><li><p>递归  </p><ul><li>时复杂  =  O(2^n)</li></ul></li><li><p>自底向上 二维数组</p><ul><li>时 空 复杂  O(nw)</li></ul></li><li><p>一维数组  </p><ul><li>空 复杂   O(n)</li></ul></li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;动态规划&quot;&gt;&lt;a href=&quot;#动态规划&quot; class=&quot;headerlink&quot; title=&quot;动态规划&quot;&gt;&lt;/a&gt;动态规划&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;把复杂的问题简化成规模较小的子问题，再从简单的子问题自底向上一步一步递推，得到复杂问题的最优解&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="小灰の算法之旅" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%81%B0%E3%81%AE%E7%AE%97%E6%B3%95%E4%B9%8B%E6%97%85/"/>
+    
+  </entry>
   
   <entry>
     <title>first-memo</title>
