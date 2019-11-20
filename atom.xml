@@ -49,9 +49,16 @@
     <link href="http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/"/>
     <id>http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/</id>
     <published>2019-11-20T15:03:47.000Z</published>
-    <updated>2019-11-20T15:05:58.947Z</updated>
+    <updated>2019-11-20T16:09:57.283Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="五行缺一个整数"><a href="#五行缺一个整数" class="headerlink" title="五行缺一个整数"></a>五行缺一个整数</h3><h6 id="99个不重复，找缺失一个"><a href="#99个不重复，找缺失一个" class="headerlink" title="99个不重复，找缺失一个"></a>99个不重复，找缺失一个</h6><ul><li>哈希表  <ul><li>时复杂  O(n)     空复杂 O(n)</li></ul></li><li>排序<ul><li>时复杂 O(nlogn)     空复杂 O(1)</li></ul></li><li>累加  减<ul><li>时复杂 O(1)     空复杂  O(1)</li></ul></li></ul><h6 id="99个出现偶数次，1个出现奇数次"><a href="#99个出现偶数次，1个出现奇数次" class="headerlink" title="99个出现偶数次，1个出现奇数次"></a>99个出现偶数次，1个出现奇数次</h6><ul><li>异或</li></ul><h6 id="98个出现偶数次，2个出现奇数次"><a href="#98个出现偶数次，2个出现奇数次" class="headerlink" title="98个出现偶数次，2个出现奇数次"></a>98个出现偶数次，2个出现奇数次</h6><ul><li>分治异或</li></ul>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;五行缺一个整数&quot;&gt;&lt;a href=&quot;#五行缺一个整数&quot; class=&quot;headerlink&quot; title=&quot;五行缺一个整数&quot;&gt;&lt;/a&gt;五行缺一个整数&lt;/h3&gt;&lt;h6 id=&quot;99个不重复，找缺失一个&quot;&gt;&lt;a href=&quot;#99个不重复，找缺失一个&quot; class=&quot;
+      
     
     </summary>
     
