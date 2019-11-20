@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-19T16:11:56.519Z</updated>
+  <updated>2019-11-20T16:02:08.451Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实际应用</title>
+    <link href="http://yoursite.com/2019/11/20/%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/"/>
+    <id>http://yoursite.com/2019/11/20/%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/</id>
+    <published>2019-11-20T15:53:45.000Z</published>
+    <updated>2019-11-20T16:02:08.451Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="用户标签"><a href="#用户标签" class="headerlink" title="用户标签"></a>用户标签</h3><ul><li>位图算法 Bitmap  ||eg Redis<ul><li>占用空间小</li><li>位运算</li></ul></li></ul><h3 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h3><ul><li>LRU (Least Recently Used)    ||eg Redis<ul><li>哈希链表 LinkedHashMap</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;用户标签&quot;&gt;&lt;a href=&quot;#用户标签&quot; class=&quot;headerlink&quot; title=&quot;用户标签&quot;&gt;&lt;/a&gt;用户标签&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;位图算法 Bitmap  ||eg Redis&lt;ul&gt;
+&lt;li&gt;占用空间小&lt;/li&gt;
+&lt;li&gt;位运算&lt;/li&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="小灰の算法之旅" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%81%B0%E3%81%AE%E7%AE%97%E6%B3%95%E4%B9%8B%E6%97%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>寻找缺失的整数</title>
+    <link href="http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/"/>
+    <id>http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/</id>
+    <published>2019-11-20T15:03:47.000Z</published>
+    <updated>2019-11-20T15:05:58.947Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="小灰の算法之旅" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%81%B0%E3%81%AE%E7%AE%97%E6%B3%95%E4%B9%8B%E6%97%85/"/>
+    
+  </entry>
   
   <entry>
     <title>金矿问题</title>
