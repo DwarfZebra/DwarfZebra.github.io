@@ -17,19 +17,19 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>寻找缺失的整数 | Hexo</title>
-  <meta name="description" content="五行缺一个整数99个不重复，找缺失一个 哈希表   时复杂  O(n)     空复杂 O(n)   排序 时复杂 O(nlogn)     空复杂 O(1)   累加  减 时复杂 O(1)     空复杂  O(1)    99个出现偶数次，1个出现奇数次 异或  98个出现偶数次，2个出现奇数次 分治异或">
+  <title> 排序算法时间复杂度 | Hexo</title>
+  <meta name="description" content="主流算法 复杂度  O(n^2) 冒泡 选择 插入 希尔(优于O(n^2)，不足O(nlogn))   O(nlogn) 快速 归并 堆   O(n) 计数 桶 基数">
 <meta name="keywords" content="小灰の算法之旅">
 <meta property="og:type" content="article">
-<meta property="og:title" content="寻找缺失的整数">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;20&#x2F;%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0&#x2F;index.html">
+<meta property="og:title" content=" 排序算法时间复杂度">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="五行缺一个整数99个不重复，找缺失一个 哈希表   时复杂  O(n)     空复杂 O(n)   排序 时复杂 O(nlogn)     空复杂 O(1)   累加  减 时复杂 O(1)     空复杂  O(1)    99个出现偶数次，1个出现奇数次 异或  98个出现偶数次，2个出现奇数次 分治异或">
+<meta property="og:description" content="主流算法 复杂度  O(n^2) 冒泡 选择 插入 希尔(优于O(n^2)，不足O(nlogn))   O(nlogn) 快速 归并 堆   O(n) 计数 桶 基数">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-21T15:18:58.600Z">
+<meta property="og:updated_time" content="2019-11-21T15:28:20.367Z">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/index.html">
+  <link rel="canonical" href="http://yoursite.com/2019/11/21/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -309,14 +309,14 @@
   
 <main class="main" role="main">
   <div class="content">
-  <article id="post-寻找缺失的整数" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-排序算法时间复杂度" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      寻找缺失的整数
+       排序算法时间复杂度
     </h1>
   
 
@@ -324,8 +324,8 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/" class="article-date">
-	  <time datetime="2019-11-20T15:03:47.000Z" itemprop="datePublished">2019-11-20</time>
+	<a href="/2019/11/21/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/" class="article-date">
+	  <time datetime="2019-11-21T15:25:31.000Z" itemprop="datePublished">2019-11-21</time>
 	</a>
 </span>
         
@@ -338,31 +338,32 @@
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2019/11/21/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h3 id="五行缺一个整数"><a href="#五行缺一个整数" class="headerlink" title="五行缺一个整数"></a>五行缺一个整数</h3><h6 id="99个不重复，找缺失一个"><a href="#99个不重复，找缺失一个" class="headerlink" title="99个不重复，找缺失一个"></a>99个不重复，找缺失一个</h6><ul>
-<li>哈希表  <ul>
-<li>时复杂  O(n)     空复杂 O(n)</li>
+        <h3 id="主流算法"><a href="#主流算法" class="headerlink" title="主流算法"></a>主流算法</h3><ul>
+<li>复杂度  O(n^2)<ul>
+<li>冒泡</li>
+<li>选择</li>
+<li>插入</li>
+<li>希尔(优于O(n^2)，不足O(nlogn))</li>
 </ul>
 </li>
-<li>排序<ul>
-<li>时复杂 O(nlogn)     空复杂 O(1)</li>
+<li>O(nlogn)<ul>
+<li>快速</li>
+<li>归并</li>
+<li>堆</li>
 </ul>
 </li>
-<li>累加  减<ul>
-<li>时复杂 O(1)     空复杂  O(1)</li>
+<li>O(n)<ul>
+<li>计数</li>
+<li>桶</li>
+<li>基数</li>
 </ul>
 </li>
-</ul>
-<h6 id="99个出现偶数次，1个出现奇数次"><a href="#99个出现偶数次，1个出现奇数次" class="headerlink" title="99个出现偶数次，1个出现奇数次"></a>99个出现偶数次，1个出现奇数次</h6><ul>
-<li>异或</li>
-</ul>
-<h6 id="98个出现偶数次，2个出现奇数次"><a href="#98个出现偶数次，2个出现奇数次" class="headerlink" title="98个出现偶数次，2个出现奇数次"></a>98个出现偶数次，2个出现奇数次</h6><ul>
-<li>分治异或</li>
 </ul>
 
       
@@ -373,7 +374,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/" title="寻找缺失的整数" target="_blank" rel="external">http://yoursite.com/2019/11/20/%E5%AF%BB%E6%89%BE%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B4%E6%95%B0/</a>
+      <a href="http://yoursite.com/2019/11/21/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/" title=" 排序算法时间复杂度" target="_blank" rel="external">http://yoursite.com/2019/11/21/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -419,13 +420,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/2019/11/20/%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/" title="实际应用"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/2019/11/19/%E9%87%91%E7%9F%BF%E9%97%AE%E9%A2%98/" title="金矿问题"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2019/11/20/%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8/" title="实际应用"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
